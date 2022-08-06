@@ -1,0 +1,177 @@
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: ivory;
+    font-family: Arial;
+}
+
+div.element {
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: 60px;
+}
+
+p.element {
+    background-color: rgb(194, 143, 77);
+    color: beige;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.contenu {
+    background-color: antiquewhite;
+    margin: 20px, 60%, 60px, 10%;
+    padding: 50px;
+    min-width: 360px;
+    box-shadow: 1px 1px 4px 7px rgb(187, 182, 182);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+div.separateur {
+    height: 1px;
+    width: 120px;
+    background-color: chocolate;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.description {
+    text-align: center;
+    /* Lorsqu'on bloque la commande notre texte va passer sur une seule ligne mais si on bloque la 
+        largeur maximale alors notre texte s'affiche sur les 2 lignes. D'ou l'utilisation de max-width: 400px;  */
+    max-width: 400px;
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+div.description {
+    text-align: center;
+}
+
+div.infos {
+    position: relative;
+}
+
+.centre {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+table.infos {
+    position: absolute;
+    top: 315px;
+    width: 100%;
+    color: rgb(236, 172, 10);
+    background-color: #0c2838c0;
+    height: 85px;
+}
+
+
+/*NB: la virgule signifie que les modifications opérées s'appliquent à tout les éléments de listés de la div.
+ Par concontre l'espace signifie que l'opération concerne l'élément mentionné */
+
+table.infos td {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+table.infos th {
+    text-align: center;
+    font-size: 15px;
+    vertical-align: bottom;
+    padding: 7px;
+}
+
+img.infos {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 250px;
+    background-color: lightgrey;
+}
+
+div.colonnes {
+    /* div.colonne1, div.colonne2{}*/
+    width: 50%;
+    margin-top: 25px;
+}
+
+div.colonne1 {
+    display: inline-block;
+}
+
+div.idem1 p {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgrey;
+    padding: 8px 0;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+div.colonne h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid cadetblue;
+    padding-bottom: 4px;
+}
+
+table.lol p.numero {
+    background-color: #000508c0;
+    color: whitesmoke;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    /*border-radius: 4px; permet d'arondir les bordudure du carré*/
+    margin: 0;
+}
+
+table.lol,
+td {
+    vertical-align: top;
+}
+
+table.lol,
+td.lol_etape {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+table.lol tr {
+    height: 35px;
+}
+
+div.colonne2 {
+    float: right;
+}
+
+p#categorie {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(88, 43, 43);
+}
